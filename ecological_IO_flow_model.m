@@ -1,4 +1,6 @@
-% Example data from Bailey et al. 2004 pp. 56.
+% Data from Bailey, R., Allen, J.K. and Bras, B., 2004. 
+% Applying Ecological Input‐Output Flow Analysis to Material Flows in Industrial Systems:
+% Part I: Tracing Flows. Journal of Industrial Ecology, 8(1‐2), pp.45-68.
  
 % [1] Basic Ecological I-O Flow Model.
 % ----------------------------------------------------
