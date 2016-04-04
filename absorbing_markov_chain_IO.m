@@ -2,8 +2,7 @@
 
 % Data from: Duchin, F. and Levine, S.H., 2010. Embodied resource flows and product flows. Journal of Industrial Ecology, 14(4), pp.586-597.
 
-% Consider an economy with three resources (RE), three intermediate
-products (P), and three consumption goods (C).
+% Consider an economy with three resources (RE), three intermediate products (P), and three consumption goods (C).
 
 % see Figure 2. Absorbing Markov Chain Model, in README.md
 
@@ -116,12 +115,9 @@ sigma(i) = ?(j) n(ij)
  
 sigma = sum(N,2)
  
-% It can be expressed as the average output multiplier for products
-weighted by the fraction of i embodied in each consumer product.
+% It can be expressed as the average output multiplier for products weighted by the fraction of i embodied in each consumer product.
  
-% An increase in output multiplier, implying that a greater portion of
-output is retained within the production network, leads to an increase in
-average path length.
+% An increase in output multiplier, implying that a greater portion of output is retained within the production network, leads to an increase in average path length.
 
 % Example showing the distribution of Iron Ore through the system.
 
