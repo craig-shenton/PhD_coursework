@@ -7,6 +7,11 @@ References:
 
 3. Bailey, R., Allen, J.K. and Bras, B., 2004. Applying Ecological Input‐Output Flow Analysis to Material Flows in Industrial Systems: Part I: Tracing Flows. Journal of Industrial Ecology, 8(1‐2), pp.45-68.
 
+4. Duchin, F. and Levine, S.H., 2010. Embodied resource flows and product flows. Journal of Industrial Ecology, 14(4), pp.586-597.
+
+5. Faye Duchin. 1991, Procedings of the National Academy of Sciences. Vol. 89, pp. 851-855, February 1992 Colloquium Paper.
+
+
 Table 1. Transaction Matrix
 ![alt tag](https://cloud.githubusercontent.com/assets/1284603/14230104/57b8b8f0-f942-11e5-9ced-84470441f31f.png)
 
