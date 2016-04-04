@@ -53,32 +53,32 @@
 % [3] Define components.
 % ----------------------------------------------------
  
-f = [1950 1500; 3540 0];      flows H1 and H2
+f = [1950 1500; 3540 0];     % flows H1 and H2
  
-z = [3710 0; 0 3550];         inflows
+z = [3710 0; 0 3550];        % inflows
  
-y = [1590 0; 0 5590];         outflows
+y = [1590 0; 0 5590];        % outflows
 
-x = [80 0];                   increase in stocks
+x = [80 0];                  % increase in stocks
  
-v = [0; 0];                   zeros vector
+v = [0; 0];                  % zeros vector
 
-P = production matrix 
+% P = production matrix 
 
 P = [zeros(2) zeros(2) zeros(2) v; z f zeros(2) v;
     zeros(2) y zeros(2) v; 0 0 x 0 0 0]
  
-T = sum(P,2);                 throughflow
+T = sum(P,2);                % throughflow
  
 Q = T*(inv((diag(P))));           
 
-I = eye(7);                   identity matrix
+I = eye(7);                  % identity matrix
  
-N = (I - Q)^-1                "structure of the ecosystem" (aka A matrix)
+N = (I - Q)^-1               %  "structure of the ecosystem" (aka A matrix)
  
-yx = [1670 0; 0 5590];        net outflows (y+x)
+yx = [1670 0; 0 5590];       % net outflows (y+x)
  
-Y = outflow matrix
+% Y = outflow matrix
  
 %      --------------
 %      | 0  0  0  0 |
@@ -90,4 +90,4 @@ Y = outflow matrix
 Y = [zeros(2) zeros(2) zeros(2) v; zeros(2) yx zeros(2) v;
       zeros(2) y zeros(2) v; 0 0 x 0 0 0];
  
-TM = Y * N                   Throughflow matrix (in TMT/yr)
+TM = Y * N                  % Throughflow matrix (in TMT/yr)
