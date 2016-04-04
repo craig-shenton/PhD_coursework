@@ -7,3 +7,6 @@ Data from:
 
 Table 1. Transaction Matrix
 ![alt tag](https://cloud.githubusercontent.com/assets/1284603/14230104/57b8b8f0-f942-11e5-9ced-84470441f31f.png)
+
+Figure 1. Two-Process System
+![alt tag](https://cloud.githubusercontent.com/assets/1284603/14266180/4e90e84c-fabe-11e5-97a4-fdbe29e888b5.png)
